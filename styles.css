@@ -4,7 +4,7 @@
     min-height: 30%;
     max-height: 30%;
     padding: 0;
-    color: white;
+    color: #f2efeb;
     justify-content: space-between;
     display: flex;
     flex-direction: row;
@@ -29,7 +29,7 @@
     height: 70%;
     padding: 0;
     margin-top: -3px;
-    color: white;
+    color: #f2efeb;
     justify-content: space-between;
     display: flex;
     flex-direction: column;
@@ -63,7 +63,7 @@
     height: 70%;
     padding: 0;
     margin-top: -3px;
-    color: white;
+    color: #f2efeb;
     justify-content: space-between;
     display: flex;
     flex-direction: row;
@@ -80,6 +80,8 @@
 .navlink{
     margin: 50px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    color: #f2efeb;
 }
 
 .overlay-text {
@@ -91,7 +93,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  color: white;
+  color: #f2efeb;
   font-family: sans-serif;
   font-size: 20px;
   padding: 0px;
@@ -108,18 +110,18 @@
   display: inline-block;
   padding: 10px 20px;
   background-color: rgba(0, 0, 0, 0.15);
-  color: #ffffff;
+  color: #f2efeb;
   text-decoration: none;
   font-family: "barlow";
   border-radius: 4px;
   cursor: pointer;
   border-style: solid;
   border-width: 2px;
-  border-color: white;
+  border-color: #f2efeb;
 }
 
 .button:hover {
-  background-color: #ffffff;
+  background-color: #f2efeb;
   color: #0f2854;
 
 }
