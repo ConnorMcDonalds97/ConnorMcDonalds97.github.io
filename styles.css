@@ -1,0 +1,29 @@
+#banner{
+    background-color: #0f2854;
+    width: 100%;
+    min-height: 30%;
+    max-height: 30%;
+    padding: 0;
+    color: white;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#logo {
+    width: 150px;
+    height: 150px;
+}
+
+#links {
+    justify-content: center;
+    align-items: center;
+    margin-right: 100px;
+}
+
+.navlink{
+    margin: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
