@@ -79,9 +79,10 @@
 
 .navlink{
     margin: 50px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: "barlow";
     text-decoration: none;
     color: #f2efeb;
+    font-weight: bold;
 }
 
 .overlay-text {
@@ -123,8 +124,32 @@
 .button:hover {
   background-color: #f2efeb;
   color: #0f2854;
-
 }
 
+#teamContainer{
+    text-align: center;
+    font-family: "Barlow";
+}
+
+#individualPhoto{
+    width: 50%;
+    height: auto;
+    display: block;
+}
+
+#individualContainer{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#groupContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+}
 
 
